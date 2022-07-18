@@ -1,5 +1,4 @@
 import { faker } from '@faker-js/faker';
-// import { faker } from '@faker-js/faker/locale/de';
 
 export const account = [];
 
@@ -14,7 +13,7 @@ export function createRandomUser(){
   };
 }
 
-Array.from({ length: 250 }).forEach(() => {
+Array.from({ length: 250000 }).forEach(() => {
   account.push(createRandomUser());
 });
 
